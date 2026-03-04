@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="level1"/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-03-04 03:15:21 "/>
+        <attribute name="created" value="QWx1bm87U04xMjg3NTE0OzIwMjYtMDMtMDQ7IjAyOjUxOjUyICI7MjIyMw=="/>
+        <attribute name="edited" value="QWx1bm87U04xMjg3NTE0OzIwMjYtMDMtMDQ7IjAzOjE1OjIxICI7MzsyMzMw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n" type="Integer" array="False" size=""/>
+            <output expression="&quot;Escolha um n&#250;mero de 1 a 100.&quot;" newline="True"/>
+            <input variable="n"/>
+            <if expression="n&gt;50">
+                <then>
+                    <output expression="&quot;Pokemon capturado!&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;O Pokemon escapou!&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

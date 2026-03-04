@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="level1"/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-03-04 03:25:18 "/>
+        <attribute name="created" value="QWx1bm87U04xMjg3NTE0OzIwMjYtMDMtMDQ7IjAyOjUxOjUyICI7MjIyMw=="/>
+        <attribute name="edited" value="QWx1bm87U04xMjg3NTE0OzIwMjYtMDMtMDQ7IjAzOjI1OjE4ICI7NDsyMzM4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="tipo1" type="String" array="False" size=""/>
+            <declare name="tipo2" type="String" array="False" size=""/>
+            <output expression="&quot;Qual o tipo do seu ataque?&quot;" newline="True"/>
+            <input variable="tipo1"/>
+            <output expression="&quot;Qual o tipo do seu oponente?&quot;" newline="True"/>
+            <input variable="tipo2"/>
+            <if expression="tipo1=&quot;fogo&quot;">
+                <then>
+                    <if expression="tipo2=&quot;&#225;gua&quot;">
+                        <then>
+                            <output expression="&quot;Pouco efetivo!&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="tipo2=&quot;planta&quot;">
+                                <then>
+                                    <output expression="&quot;Muito efetivo!&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <output expression="&quot;Normal!&quot;" newline="True"/>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <if expression="tipo1=&quot;&#225;gua&quot;">
+                        <then>
+                            <if expression="tipo2=&quot;&#225;gua&quot;">
+                                <then>
+                                    <output expression="&quot;Normal!&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="tipo2=&quot;planta&quot;">
+                                        <then>
+                                            <output expression="&quot;Pouco efetivo!&quot;" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <output expression="&quot;Muito efetivo!&quot;" newline="True"/>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </then>
+                        <else>
+                            <if expression="tipo2=&quot;&#225;gua&quot;">
+                                <then>
+                                    <output expression="&quot;Muito efetivo!&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="tipo2=&quot;planta&quot;">
+                                        <then>
+                                            <output expression="&quot;Normal!&quot;" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <output expression="&quot;Pouco efetivo!&quot;" newline="True"/>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

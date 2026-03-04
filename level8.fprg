@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="level1"/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-03-04 03:53:40 "/>
+        <attribute name="created" value="QWx1bm87U04xMjg3NTE0OzIwMjYtMDMtMDQ7IjAyOjUxOjUyICI7MjIyMw=="/>
+        <attribute name="edited" value="QWx1bm87U04xMjg3NTE0OzIwMjYtMDMtMDQ7IjAzOjUzOjQwICI7ODsyMzM4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="r" type="String" array="False" size=""/>
+            <declare name="fim" type="Boolean" array="False" size=""/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <assign variable="i" expression="1"/>
+            <assign variable="fim" expression="false"/>
+            <while expression="fim=false and i&lt;=3">
+                <assign variable="i" expression="i+1"/>
+                <output expression="&quot;O Pokemon comeu a isca?&quot;" newline="True"/>
+                <input variable="r"/>
+                <if expression="r=&quot;Sim&quot;">
+                    <then>
+                        <assign variable="fim" expression="true"/>
+                    </then>
+                    <else/>
+                </if>
+            </while>
+            <if expression="r=&quot;Sim&quot;">
+                <then>
+                    <output expression="&quot;Voc&#234; pescou um Magikarp!&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Voc&#234; falhou...&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

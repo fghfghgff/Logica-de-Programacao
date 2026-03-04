@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="level1"/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-03-04 03:03:02 "/>
+        <attribute name="created" value="QWx1bm87U04xMjg3NTE0OzIwMjYtMDMtMDQ7IjAyOjUxOjUyICI7MjIyMw=="/>
+        <attribute name="edited" value="QWx1bm87U04xMjg3NTE0OzIwMjYtMDMtMDQ7IjAzOjAzOjAyICI7MTsyMzI0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nome" type="String" array="False" size=""/>
+            <declare name="tipo" type="String" array="False" size=""/>
+            <declare name="nivel" type="Integer" array="False" size=""/>
+            <output expression="&quot;Qual o seu Pokemon?&quot;" newline="True"/>
+            <input variable="nome"/>
+            <output expression="&quot;Qual o tipo dele?&quot;" newline="True"/>
+            <input variable="tipo"/>
+            <output expression="&quot;Qual o n&#237;vel dele?&quot;" newline="True"/>
+            <input variable="nivel"/>
+            <output expression="&quot;Bem vindo, seu Pokemon &#233; um &quot;&amp;nome&amp;&quot; do tipo &quot;&amp;tipo&amp;&quot; de n&#237;vel &quot;&amp;nivel&amp;&quot;.&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

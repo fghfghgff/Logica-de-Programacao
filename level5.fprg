@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="level1"/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-03-04 03:34:42 "/>
+        <attribute name="created" value="QWx1bm87U04xMjg3NTE0OzIwMjYtMDMtMDQ7IjAyOjUxOjUyICI7MjIyMw=="/>
+        <attribute name="edited" value="QWx1bm87U04xMjg3NTE0OzIwMjYtMDMtMDQ7IjAzOjM0OjQyICI7NTsyMzM2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nivel" type="Integer" array="False" size=""/>
+            <declare name="item" type="String" array="False" size=""/>
+            <output expression="&quot;Qual o n&#237;vel do seu Pokemon?&quot;" newline="True"/>
+            <input variable="nivel"/>
+            <output expression="&quot;Que item seu Pokemon segura?&quot;" newline="True"/>
+            <input variable="item"/>
+            <if expression="nivel&gt;=16 and item=&quot;Nenhum&quot;">
+                <then>
+                    <output expression="&quot;Seu Pokemon pode evoluir!&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Seu Pokemon n&#227;o pode evoluir!&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

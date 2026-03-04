@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="level1"/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-03-04 03:44:50 "/>
+        <attribute name="created" value="QWx1bm87U04xMjg3NTE0OzIwMjYtMDMtMDQ7IjAyOjUxOjUyICI7MjIyMw=="/>
+        <attribute name="edited" value="QWx1bm87U04xMjg3NTE0OzIwMjYtMDMtMDQ7IjAzOjQ0OjUwICI7NzsyMzM4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="hp" type="Integer" array="False" size=""/>
+            <declare name="x" type="String" array="False" size=""/>
+            <assign variable="hp" expression="100"/>
+            <while expression="hp&gt;0">
+                <output expression="&quot;Escreva qualquer coisa para atacar!&quot;" newline="True"/>
+                <input variable="x"/>
+                <assign variable="hp" expression="hp-15"/>
+                <output expression="&quot;O seu oponente tem &quot;&amp;hp&amp;&quot; HP restante!&quot;" newline="True"/>
+            </while>
+            <output expression="&quot;Vit&#243;ria!&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

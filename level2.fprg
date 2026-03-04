@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="level1"/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-03-04 03:06:17 "/>
+        <attribute name="created" value="QWx1bm87U04xMjg3NTE0OzIwMjYtMDMtMDQ7IjAyOjUxOjUyICI7MjIyMw=="/>
+        <attribute name="edited" value="QWx1bm87U04xMjg3NTE0OzIwMjYtMDMtMDQ7IjAzOjA2OjE3ICI7MjsyMzM0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="poder" type="Integer" array="False" size=""/>
+            <declare name="dano" type="Real" array="False" size=""/>
+            <output expression="&quot;Qual o poder base de seu ataque?&quot;" newline="True"/>
+            <input variable="poder"/>
+            <assign variable="dano" expression="poder*1.5"/>
+            <output expression="&quot;Voc&#234; causou &quot;&amp;dano&amp;&quot; de dano!&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
