@@ -1,0 +1,5 @@
+print("Qual a primeira quantidade de créditos?")
+cred1 = int(input())
+print("Qual a segunda quantidade de créditos?")
+cred2 = int(input())
+print("O total de créditos é "+str(cred1+cred2)+".")

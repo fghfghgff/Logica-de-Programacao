@@ -1,0 +1,7 @@
+print("Qual o seu nome?")
+nome = input()
+print("Qual a sua idade?")
+idade = input()
+print("Qual o seu e-mail?")
+email = input()
+print(nome, idade, email)
